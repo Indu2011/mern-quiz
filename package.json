@@ -2,6 +2,10 @@
   "name": "quiz-app",
   "version": "1.0.0",
   "main": "server",
+  "engines": {
+    "node": ">=18.18.0<19.0.0",
+    "npm": "6.13.4"
+  },
   "scripts": {
     "start": "nodemon index.js"
   },
